@@ -1,0 +1,107 @@
+body{
+    background-image: url(icon/body.jpg);
+}
+/*---------navigation bar------------*/
+.nav{
+    background-color: rgb(255, 176, 248);
+    height: 40px;
+    width: auto;
+    margin-top:-15px;
+
+}
+ul li {
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+    float: right;
+
+  }
+
+a{
+    display: block;
+    padding: 10px;
+   color:black;
+    text-decoration: none;
+    
+  }
+  li a:hover {
+    background-color:yellow;
+    
+  }
+
+/*---------Adding new Student box------------*/
+
+
+.container{
+    border: 1px solid black;
+    height: 530px;
+    width: 1000px;
+    margin:auto;
+    text-align: center;
+    background-color: rgb(169, 252, 255);
+   
+}
+.box{
+    border: 1px solid black;
+    height: 400px;
+    width: 930px;
+   margin:50px 0 0 33px;
+    text-align: center;
+    background-color: rgb(252, 252, 252);
+    border-radius: 15px;
+}
+.one{
+    
+    height: 190px;
+    width: 300px;
+    display: inline-block;
+    margin-right: 25px;
+    
+}
+
+.two{
+
+    height: 190px;
+    width: 300px;
+    display: inline-block;
+    margin-right: 25px;
+    margin-left: 10px;
+}
+.three{
+
+    height: 140px;
+    width: 140px;
+    display: inline-block;
+    margin: 0 0 10px 0;
+    
+}
+.image{
+    border: 1px solid black;
+    height:95px;
+    width: 95px;
+
+}
+.four{
+
+    height: 35px;
+    width: auto;
+    margin: 40px 0 0 0;
+}
+
+input[type="date"]{
+    padding: 0 27px 0 27px;
+}
+input[type="submit"]{
+    cursor: pointer;
+    padding: 5px 27px 5px 27px;
+    float: right;
+    margin: 0 20px 0 0;
+    
+}
+input[type="file"]{
+    float: right;
+    margin: -40px -120px 0 0;
+}
+.error{
+    color: red;
+}

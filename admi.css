@@ -1,0 +1,84 @@
+
+body{
+  background-image: url(icon/body.jpg);
+}
+/*---------navigation bar------------*/
+.nav{
+    background-color: rgb(255, 176, 248);
+    height: 40px;
+    width: auto;
+    margin-top:-15px;
+}
+ul li { 
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+    float: right;
+  }
+a{
+    display: block;
+    padding: 10px;
+   color:black;
+    text-decoration: none;
+  }
+li a:hover {
+    background-color: rgb(87, 255, 110);
+    
+  }
+/*--------- Student Table box------------*/
+.container{
+    border: 1px solid black;
+    height: 550px;
+    width: 1000px;
+    margin:auto;
+    text-align: center;
+    background-color: rgb(169, 252, 255);
+}
+.box{
+    border: 1px solid white;
+    height: 507px;
+    margin:auto;
+    width: auto;
+    background-image: url(icon/admin.jpeg);
+    background-size: cover;
+}
+.heading{
+    color:black;
+    font-size:40px;
+    margin:60px 0 0 -480px;
+}
+/*----------------------admin pannel-----------------*/
+form {
+        margin-left: 120px;
+        width: 250px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-image: url(icon/login.jpg);
+        background-size: cover;
+      }
+
+input[type="text"], input[type="password"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+input[type="submit"] {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      /* Add hover effect for buttons */
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
